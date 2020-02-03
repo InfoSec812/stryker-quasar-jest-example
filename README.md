@@ -5,12 +5,12 @@
 This shows the steps taken to create this project
 
 ```
-     DevenMacBook.phillipsibm.com/tmp    🎩sudo npm install -g @quasar/cli
+     DevenMacBook.phillipsredhat.com/tmp    🎩sudo npm install -g @quasar/cli
 npm WARN deprecated coffee-script@1.12.7: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
 /usr/local/bin/quasar -> /usr/local/lib/node_modules/@quasar/cli/bin/quasar
 + @quasar/cli@1.0.5
 added 294 packages from 226 contributors in 84.202s
-     DevenMacBook.phillipsibm.com/tmp    🎩quasar create test-project
+     DevenMacBook.phillipsredhat.com/tmp    🎩quasar create test-project
 
   ___                             
  / _ \ _   _  __ _ ___  __ _ _ __ 
@@ -38,26 +38,26 @@ added 294 packages from 226 contributors in 84.202s
 
 npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
 
-> fsevents@1.2.11 install /Users/deven.phillipsibm.com/tmp/test-project/node_modules/watchpack/node_modules/fsevents
+> fsevents@1.2.11 install /Users/deven.phillipsredhat.com/tmp/test-project/node_modules/watchpack/node_modules/fsevents
 > node-gyp rebuild
 
   SOLINK_MODULE(target) Release/.node
   CXX(target) Release/obj.target/fse/fsevents.o
   SOLINK_MODULE(target) Release/fse.node
 
-> fsevents@1.2.11 install /Users/deven.phillipsibm.com/tmp/test-project/node_modules/webpack-dev-server/node_modules/fsevents
+> fsevents@1.2.11 install /Users/deven.phillipsredhat.com/tmp/test-project/node_modules/webpack-dev-server/node_modules/fsevents
 > node-gyp rebuild
 
   SOLINK_MODULE(target) Release/.node
   CXX(target) Release/obj.target/fse/fsevents.o
   SOLINK_MODULE(target) Release/fse.node
 
-> node-sass@4.13.0 install /Users/deven.phillipsibm.com/tmp/test-project/node_modules/node-sass
+> node-sass@4.13.0 install /Users/deven.phillipsredhat.com/tmp/test-project/node_modules/node-sass
 > node scripts/install.js
 
-Cached binary found at /Users/deven.phillipsibm.com/.npm/node-sass/4.13.0/darwin-x64-64_binding.node
+Cached binary found at /Users/deven.phillipsredhat.com/.npm/node-sass/4.13.0/darwin-x64-64_binding.node
 
-> core-js@2.6.11 postinstall /Users/deven.phillipsibm.com/tmp/test-project/node_modules/core-js
+> core-js@2.6.11 postinstall /Users/deven.phillipsredhat.com/tmp/test-project/node_modules/core-js
 > node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
@@ -69,20 +69,20 @@ The project needs your help! Please consider supporting of core-js on Open Colle
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js-pure@3.6.4 postinstall /Users/deven.phillipsibm.com/tmp/test-project/node_modules/core-js-pure
+> core-js-pure@3.6.4 postinstall /Users/deven.phillipsredhat.com/tmp/test-project/node_modules/core-js-pure
 > node -e "try{require('./postinstall')}catch(e){}"
 
 
-> ejs@2.7.4 postinstall /Users/deven.phillipsibm.com/tmp/test-project/node_modules/ejs
+> ejs@2.7.4 postinstall /Users/deven.phillipsredhat.com/tmp/test-project/node_modules/ejs
 > node ./postinstall.js
 
 Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
 
 
-> node-sass@4.13.0 postinstall /Users/deven.phillipsibm.com/tmp/test-project/node_modules/node-sass
+> node-sass@4.13.0 postinstall /Users/deven.phillipsredhat.com/tmp/test-project/node_modules/node-sass
 > node scripts/build.js
 
-Binary found at /Users/deven.phillipsibm.com/tmp/test-project/node_modules/node-sass/vendor/darwin-x64-64/binding.node
+Binary found at /Users/deven.phillipsredhat.com/tmp/test-project/node_modules/node-sass/vendor/darwin-x64-64/binding.node
 Testing binary
 Binary is fine
 npm notice created a lockfile as package-lock.json. You should commit this file.
@@ -97,7 +97,7 @@ added 1597 packages from 628 contributors in 96.542s
 
 
 
-> test-project@0.0.1 lint /Users/deven.phillipsibm.com/tmp/test-project
+> test-project@0.0.1 lint /Users/deven.phillipsredhat.com/tmp/test-project
 > eslint --ext .js,.vue src "--fix"
 
 
@@ -122,7 +122,7 @@ https://github.com/quasarframework/quasar
 Enjoy! - Quasar Team
 
 
-     DevenMacBook.phillipsibm.com/tmp    🎩cd test-project/
+     DevenMacBook.phillipsredhat.com/tmp    🎩cd test-project/
      DevenMacBookcom/tmp/test-project    🎩quasar ext add @quasar/testing
  app:extension Installing "@quasar/testing" Quasar App Extension +0ms
 
@@ -146,7 +146,7 @@ added 4 packages from 2 contributors in 9.282s
 
 npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
 
-> fsevents@1.2.11 install /Users/deven.phillipsibm.com/tmp/test-project/node_modules/jest-haste-map/node_modules/fsevents
+> fsevents@1.2.11 install /Users/deven.phillipsredhat.com/tmp/test-project/node_modules/jest-haste-map/node_modules/fsevents
 > node-gyp rebuild
 
   SOLINK_MODULE(target) Release/.node
@@ -170,7 +170,7 @@ added 400 packages from 334 contributors in 142.064s
 
      DevenMacBookcom/tmp/test-project    🎩npm run test:unit
 
-> test-project@0.0.1 test:unit /Users/deven.phillipsibm.com/tmp/test-project
+> test-project@0.0.1 test:unit /Users/deven.phillipsredhat.com/tmp/test-project
 > jest --updateSnapshot
 
  PASS  test/jest/__tests__/App.spec.js
