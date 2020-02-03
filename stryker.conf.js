@@ -6,7 +6,7 @@ module.exports = function(config) {
     mutator: "vue",
     testRunner: "jest",
     jest: {
-      // config: require('path/to/your/custom/jestConfig.js')
+      config: require('./jest.config.js')
     },
     reporters: ["progress", "clear-text", "html"],
     coverageAnalysis: "off"
